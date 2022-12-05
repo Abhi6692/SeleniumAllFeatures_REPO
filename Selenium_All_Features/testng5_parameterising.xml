@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+<!-- 	The parameters can be set at suite level and individually class level as well -->
+	<parameter name="URL" value="www.ABHISHEK.com"></parameter>
+	<parameter name="Browser" value="Chrome"></parameter>
+	
+	<test thread-count="5" name="Class1 Tests">
+
+		
+		<classes>
+
+			
+			<class name="testNG_4.TestNGParameterisation_5"></class>
+
+		</classes>
+
+
+	</test> <!-- Test -->
+
+
+
+
+
+</suite> <!-- Suite -->

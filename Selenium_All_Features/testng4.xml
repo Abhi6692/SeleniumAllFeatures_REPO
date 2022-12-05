@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+	<!-- Usage of AnnotationHelper in TESTNG -->
+	<test thread-count="5" name="Class1 Tests">
+
+		
+		<classes>
+
+			
+			<class name="testNG_4.AnnotationHelper_4"></class>
+
+		</classes>
+
+
+	</test> <!-- Test -->
+
+
+
+
+
+</suite> <!-- Suite -->
